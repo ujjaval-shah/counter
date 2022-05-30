@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+
 .App {
   text-align: center;
 }
@@ -14,14 +16,16 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background-color: #0B0C10;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(18px + 2vmin);
+  /* color: white; */
+  color: #66FCF1;
 }
 
 .App-link {
@@ -35,4 +39,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.counter {
+  font-family: 'Spectral', serif;
 }
